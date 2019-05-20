@@ -1,13 +1,10 @@
 import React from 'react';
-import { Link } from 'gatsby';
 
 import Layout from '../components/layout';
 
 const IndexPage = () => (
     <Layout>
-        <h1>Hi there!</h1>
-        <h2>I'm Alain Lou, an ECE student at the University of Waterloo</h2>
-        <Link to="/contact">Contact</Link>
+        <h3>Hi! I'm Alain, a computer engineering student at the University of Waterloo.</h3>
     </Layout>
 );
 
