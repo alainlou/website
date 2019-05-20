@@ -5,7 +5,7 @@ import Layout from '../components/layout';
 const ProjectsPage = () => {
     return (
         <Layout>
-
+        
         </Layout>
     );
 };
