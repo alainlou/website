@@ -1,0 +1,35 @@
+$blue: #999999;
+
+.card {
+    width: 16em;
+    display: block;
+    margin: 4em auto;
+    box-shadow: 0.5em 0.25em 2em 0.5em darken(#a7a7a7, 5%);
+    transition: .25s;
+}
+
+.card:hover {
+    box-shadow: 0.5em 0.25em 2em 0.5em darken(#a7a7a7, 15%);
+    cursor: pointer;
+}
+  
+.card-header {
+    height: 9em;
+    width: 100%;
+    padding: 0.75em;
+    width: 100%;
+    background-size:cover;
+    color: white;
+}
+
+.card-body {
+    padding: 0.75em;
+    background-color: white;
+    width:100%;
+}
+
+.body-content {
+    padding-bottom: 2em;
+    font-size: 0.75rem;
+    line-height: 1.8;
+}
