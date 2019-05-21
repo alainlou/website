@@ -8,7 +8,7 @@ const ProjectsPage = () => {
     return (
         <Layout>
             <SEO title="Projects"/>
-            <p>This is a migration project from Github...</p>
+            <p>This is a migration in progress...</p>
             <Card imgSrc="https://source.unsplash.com/user/erondu/600x400" title="Hello" content="This is a card"/>
         </Layout>
     );
