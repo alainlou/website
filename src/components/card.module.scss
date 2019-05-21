@@ -2,6 +2,7 @@ $blue: #999999;
 
 .card {
     width: 16em;
+    height: 24em;
     display: block;
     margin: 4em auto;
     box-shadow: 0.5em 0.25em 2em 0.5em darken(#a7a7a7, 5%);
@@ -14,18 +15,18 @@ $blue: #999999;
 }
   
 .card-header {
-    height: 9em;
+    height: 45%;
     width: 100%;
     padding: 0.75em;
     width: 100%;
-    background-size:cover;
+    background-size: cover;
     color: white;
 }
 
 .card-body {
     padding: 0.75em;
     background-color: white;
-    width:100%;
+    width: 100%;
 }
 
 .body-content {
