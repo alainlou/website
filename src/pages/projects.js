@@ -6,7 +6,8 @@ import SEO from '../components/SEO';
 const ProjectsPage = () => {
     return (
         <Layout>
-            <SEO title="Projects"/>        
+            <SEO title="Projects"/>
+            <p>This is a migration project from Github...</p>
         </Layout>
     );
 };
