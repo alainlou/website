@@ -3,6 +3,7 @@ import { FaGithub, FaEnvelope, FaLinkedin } from 'react-icons/fa';
 
 import Layout from '../components/layout';
 import SEO from '../components/SEO';
+
 import contactStyles from './contact.module.scss';
 
 const ContactPage = () => {
