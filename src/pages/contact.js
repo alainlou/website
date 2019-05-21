@@ -9,15 +9,21 @@ const ContactPage = () => {
     return (
         <Layout>
             <SEO title="Contact"/>
-            <a className={contactStyles.link} href="https://github.com/alainlou" target="_blank" rel="noopener noreferrer">
-                <FaGithub />
-            </a>
-            <a className={contactStyles.link} href="mailto:azlou@uwaterloo.ca" target="_blank" rel="noopener noreferrer">
-                <FaEnvelope />
-            </a>
-            <a className={contactStyles.link} href="https://linkedin.com/in/alainlou">
-                <FaLinkedin />
-            </a>
+            <div className={contactStyles.block}>
+                <a className={contactStyles.link} href="https://github.com/alainlou" target="_blank" rel="noopener noreferrer">
+                    <FaGithub /> I put the source code of my personal projects on Github.
+                </a>
+            </div>
+            <div className={contactStyles.block}>
+                <a className={contactStyles.link} href="mailto:azlou@uwaterloo.ca" target="_blank" rel="noopener noreferrer">
+                    <FaEnvelope /> Feel free to reach out on email! I'm most responsive here.
+                </a>
+            </div>
+            <div className={contactStyles.block}>
+                <a className={contactStyles.link} href="https://linkedin.com/in/alainlou">
+                    <FaLinkedin /> Connect with me on LinkedIn for job/professional things.
+                </a>
+            </div>
         </Layout>
     );
 };
