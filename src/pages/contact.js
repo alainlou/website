@@ -11,13 +11,13 @@ const ContactPage = () => {
         <Layout>
             <SEO title="Contact"/>
             <div className={contactStyles.block}>
-                <a className={contactStyles.link} href="https://github.com/alainlou" target="_blank" rel="noopener noreferrer">
-                    <FaGithub /> I put the source code of my personal projects on Github.
+                <a className={contactStyles.link} href="mailto:azlou@uwaterloo.ca" target="_blank" rel="noopener noreferrer">
+                    <FaEnvelope /> Feel free to reach out on email! I'm most responsive here.
                 </a>
             </div>
             <div className={contactStyles.block}>
-                <a className={contactStyles.link} href="mailto:azlou@uwaterloo.ca" target="_blank" rel="noopener noreferrer">
-                    <FaEnvelope /> Feel free to reach out on email! I'm most responsive here.
+                <a className={contactStyles.link} href="https://github.com/alainlou" target="_blank" rel="noopener noreferrer">
+                    <FaGithub /> I put the source code of my personal projects on Github.
                 </a>
             </div>
             <div className={contactStyles.block}>
