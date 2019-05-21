@@ -2,11 +2,13 @@ import React from 'react';
 import { FaGithub, FaEnvelope, FaLinkedin } from 'react-icons/fa';
 
 import Layout from '../components/layout';
+import SEO from '../components/SEO';
 import contactStyles from './contact.module.scss';
 
 const ContactPage = () => {
     return (
         <Layout>
+            <SEO title="Contact"/>
             <a className={contactStyles.link} href="https://github.com/alainlou" target="_blank" rel="noopener noreferrer">
                 <FaGithub />
             </a>
