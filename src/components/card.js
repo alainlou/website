@@ -1,12 +1,7 @@
 import React from 'react';
+import Img from 'gatsby-image';
 
 import cardStyles from './card.module.scss';
-
-const CardHeader = ({imgSrc}) => {
-    return (
-        <header className={cardStyles.cardHeader} style={{backgroundImage: 'url(' + imgSrc + ')'}}/>
-    );
-};
 
 const CardBody = ({title, content, url}) => {
     return (
@@ -21,10 +16,10 @@ const CardBody = ({title, content, url}) => {
     );
 };
 
-const Card = ({title, imgSrc, url, content}) => {
+const Card = ({title, fluid, url, content}) => {
     return (
         <article className={cardStyles.card}>
-            <CardHeader imgSrc={imgSrc}/>
+            <Img className={cardStyles.cardHeader} fluid={fluid}/>
             <CardBody title={title} content={content} url={url}/>
         </article>
     );
