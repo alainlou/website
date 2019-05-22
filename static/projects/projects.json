@@ -1,37 +1,37 @@
 [
     {
         "title": "ShareTO",
-        "imgSrc": "./ShareTO.png",
+        "image": "./ShareTO.png",
         "url": "https://devpost.com/software/shareto",
         "description": "A modern geolocation-based online marketplace for the sharing economy. Built using Angular, Java and MongoDB. Hosted on Google Cloud Platform."
     },
     {
         "title": "ChessEngine",
-        "imgSrc": "./ChessEngine.svg",
+        "image": "./ChessEngine.jpg",
         "url": "https://github.com/alainlou/ChessEngine",
         "description": "A Universal Chess Interface compatible chess engine, written in Python. Uses Minimax search with Alpha-Beta pruning and piece-square tables."
     },
     {
         "title": "CustomArduino",
-        "imgSrc": "./CustomArduino.jpg",
+        "image": "./CustomArduino.jpg",
         "url": "https://github.com/alainlou/CustomArduino",
         "description": "A redesigned Arduino microcontroller board, from the open source spec. My first project with KiCad and soldering SMT components."
     },
     {
         "title": "LM386 Amp",
-        "imgSrc": "./LM386.jpg",
+        "image": "./LM386.jpg",
         "url": "https://github.com/alainlou/lm386-audio-amp",
         "description": "Op-amp circuit based on LM386 chip from Texas Instruments. Powerful enough to drive my electric guitar. Circuit design, layout, and soldering."
     },
     {
         "title": "LearnBach",
-        "imgSrc": "./LearnBach.svg",
+        "image": "./LearnBach.jpg",
         "url": "https://github.com/alainlou/LearnBach",
         "description": "Python scripts for training a neural network to compose baroque-style keyboard music. Conversion between MIDI, .txt, and .csv. File retrieval with requests library."
     },
     {
         "title": "DineSafe",
-        "imgSrc": "./DineSafe.png",
+        "image": "./DineSafe.png",
         "url": "https://github.com/SQUASHer42/dinesafe",
         "description": "Android app that uses restaurant inspection data from OpenData to recommend dining options for users. Java backend with IBM Cloudant database."
     }

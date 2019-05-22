@@ -14,8 +14,12 @@ const ProjectsPage = () => {
                 edges {
                     node {
                         title
-                        imgSrc {
-                            relativePath
+                        image {
+                            childImageSharp {
+                                fluid(maxWidth: 600) {
+                                    ...GatsbyImageSharpFluid
+                                }
+                            }
                         }
                         url
                         description
@@ -31,7 +35,7 @@ const ProjectsPage = () => {
             <div className={projectsStyles.container}>
                 {data.allProjectsJson.edges.map((project, i) => {
                     return (
-                        <Card key={i} imgSrc={project.node.imgSrc.relativePath} title={project.node.title} url={project.node.url} content={project.node.description}/>
+                        <Card key={i} fluid={project.node.image.childImageSharp.fluid} title={project.node.title} url={project.node.url} content={project.node.description}/>
                     )
                 })}
             </div>
