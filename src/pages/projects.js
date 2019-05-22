@@ -30,7 +30,6 @@ const ProjectsPage = () => {
             <SEO title="Projects"/>
             <div className={projectsStyles.container}>
                 {data.allProjectsJson.edges.map((project, i) => {
-                    console.log(project.node);
                     return (
                         <Card key={i} imgSrc={project.node.imgSrc.relativePath} title={project.node.title} url={project.node.url} content={project.node.description}/>
                     )
