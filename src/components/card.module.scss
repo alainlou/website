@@ -1,36 +1,32 @@
 $blue: #999999;
 
-.card {
-    width: 16em;
-    height: 24em;
-    display: block;
-    margin: 4em auto;
-    box-shadow: 0.5em 0.25em 2em 0.5em darken(#a7a7a7, 5%);
-    transition: .25s;
+.plain {
+    text-decoration: none;
+    color: hsla(0, 0%, 0%, 0.8);
 }
 
-.card:hover {
-    box-shadow: 0.5em 0.25em 2em 0.5em darken(#a7a7a7, 15%);
-    cursor: pointer;
+.card {
+    width: 14em;
+    height: 22em;
+    margin-bottom: 2em;
+    border: 1px solid #e6e6e6;
+    flex: 0 1 calc(33% - 1em);
 }
   
 .card-header {
     height: 45%;
     width: 100%;
     padding: 0.75em;
-    width: 100%;
     background-size: cover;
-    color: white;
 }
 
 .card-body {
-    padding: 0.75em;
-    background-color: white;
+    height: 55%;
     width: 100%;
+    padding: 0.75em;
 }
 
 .body-content {
-    padding-bottom: 2em;
     font-size: 0.75rem;
     line-height: 1.8;
 }
