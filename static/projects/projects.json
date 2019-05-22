@@ -33,6 +33,6 @@
         "title": "DineSafe",
         "imgSrc": "./DineSafe.png",
         "url": "https://github.com/SQUASHer42/dinesafe",
-        "description": "Android app that uses restaurant inspection data from OpenData to recommend dining options for users. Java backend with IBM Cloudant as noSQL data store."
+        "description": "Android app that uses restaurant inspection data from OpenData to recommend dining options for users. Java backend with IBM Cloudant database."
     }
 ]
