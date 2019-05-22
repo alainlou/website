@@ -22,7 +22,6 @@ const CardBody = ({title, content, url}) => {
 };
 
 const Card = ({title, imgSrc, url, content}) => {
-    console.log(imgSrc);
     return (
         <article className={cardStyles.card}>
             <CardHeader imgSrc={imgSrc}/>
