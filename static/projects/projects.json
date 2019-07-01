@@ -1,5 +1,11 @@
 [
     {
+        "title": "upFoot",
+        "image": "./upFoot.jpg",
+        "url": "https://devpost.com/software/traffic-ihl1je",
+        "description": "A IoT sensor for foot traffic, interfacing with Slack and Airtable. Built with an ESP8266 microcontroller and a StdLib web service backend."
+    },
+    {
         "title": "ShareTO",
         "image": "./ShareTO.png",
         "url": "https://devpost.com/software/shareto",
