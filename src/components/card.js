@@ -6,9 +6,7 @@ import cardStyles from './card.module.scss';
 const CardBody = ({title, content, url}) => {
     return (
         <div className={cardStyles.cardBody}>
-            <h3>
-                <a className={cardStyles.plain} href={url} target="_blank" rel="noopener noreferrer">{title}</a>
-            </h3>
+            <h3>{title}</h3>
             <p className={cardStyles.bodyContent}>
                 {content}
             </p>
@@ -17,10 +15,12 @@ const CardBody = ({title, content, url}) => {
 };
 
 const Card = ({title, fluid, url, content}) => {
-    return (
+    return (   
         <article className={cardStyles.card}>
-            <Img className={cardStyles.cardHeader} fluid={fluid}/>
-            <CardBody title={title} content={content} url={url}/>
+            <a className={cardStyles.plain} href={url} target="_blank" rel="noopener noreferrer">
+                <Img className={cardStyles.cardHeader} fluid={fluid}/>
+                <CardBody title={title} content={content} url={url}/>
+            </a>
         </article>
     );
 };
