@@ -1,5 +1,11 @@
 [
     {
+        "title": "Commutr",
+        "image": "./Commutr.jpg",
+        "url": "https://devpost.com/software/commutr-gs3aro",
+        "description": "Get the latest news, chat with fellow commuters, and receive updates on transit status. Built on a unique online-offline infrastructure."
+    },
+    {
         "title": "upFoot",
         "image": "./upFoot.jpg",
         "url": "https://devpost.com/software/traffic-ihl1je",
