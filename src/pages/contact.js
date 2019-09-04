@@ -11,7 +11,7 @@ const ContactPage = () => {
         <Layout>
             <SEO title="Contact"/>
             <div className={contactStyles.block}>
-                <a className={contactStyles.link} href="mailto:azlou@uwaterloo.ca" target="_blank" rel="noopener noreferrer">
+                <a className={contactStyles.link} href="mailto:az2lou@uwaterloo.ca" target="_blank" rel="noopener noreferrer">
                     <FaEnvelope /> Feel free to reach out on email! I'm most responsive here.
                 </a>
             </div>
