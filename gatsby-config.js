@@ -17,8 +17,8 @@ module.exports = {
         path: `${__dirname}/static`
       }
     },
-    'gatsby-transformer-json',
+    'gatsby-transformer-json',    
+    'gatsby-transformer-remark',
     'gatsby-transformer-sharp',
-    'gatsby-transformer-remark'
   ]
 }
