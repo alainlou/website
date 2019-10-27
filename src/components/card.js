@@ -18,7 +18,7 @@ const CardBody = ({title, content}) => {
 const Card = ({title, fluid, url, content}) => {
     return (   
         <article className={cardStyles.card}>
-            <a className={commonStyles.plain} href={url} target="_blank" rel="noopener noreferrer">
+            <a className={commonStyles.link} href={url} target="_blank" rel="noopener noreferrer">
                 <Img className={cardStyles.cardHeader} fluid={fluid}/>
                 <CardBody title={title} content={content}/>
             </a>

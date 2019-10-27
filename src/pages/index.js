@@ -1,22 +1,42 @@
 import React from 'react';
+import { graphql, useStaticQuery } from 'gatsby';
+import Img from 'gatsby-image';
 
 import Layout from '../components/layout';
 import SEO from '../components/SEO';
 
-const IndexPage = () => (
-    <Layout>
-        <SEO title="Home"/>
-        <h3>Hey!</h3>
-        <br></br>
-        <p>
-            I'm Alain, a computer engineering student at the University of Waterloo. 
-            I'm interested in applying my knowledge to tackle big problems.
-            Over my undergraduate career, I hope to explore the tech industry and find out where I fit!
-        </p>
-        <p>
-            This is my little corner on the internet where I talk about my experiences.
-        </p>
-    </Layout>
-);
+import indexStyles from './index.module.scss';
+
+const IndexPage = () => {
+    const data = useStaticQuery(graphql`
+        query {
+            file(relativePath: { eq: "headshot-UW.jpg" }) {
+                childImageSharp {
+                    fluid(maxHeight: 2000) {
+                        ...GatsbyImageSharpFluid
+                    }
+                }
+            }
+        }
+    `);
+
+    return (
+        <Layout>
+            <SEO title="Home"/>
+            <h3>Hello!</h3>
+            <p>
+                I'm Alain, a computer engineering student at the University of Waterloo. 
+                I'm interested in applying my knowledge to tackle big problems.
+                Over my undergraduate career, I hope to explore the tech industry and find out where I fit!
+            </p>
+            <p>
+                This is my little corner on the internet.
+            </p>
+            <div className={indexStyles.face}>
+                <Img fluid={data.file.childImageSharp.fluid} />
+            </div>
+        </Layout>
+    );    
+};
 
 export default IndexPage;
