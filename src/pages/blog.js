@@ -32,10 +32,10 @@ const BlogPage = () => {
                 {data.allMarkdownRemark.edges.map((edge, i) => {
                     return (
                         <div key={i}>
-                            <Link to={`/blog/${edge.node.fields.slug}`} className={commonStyles.plain}>
-                                <h2>{edge.node.frontmatter.title}</h2>
-                                <h6>{edge.node.frontmatter.date}</h6>
-                                <p>{edge.node.excerpt}</p>  
+                            <Link to={`/blog/${edge.node.fields.slug}`} className={commonStyles.link}>                    
+                                <h3>{edge.node.frontmatter.title}</h3>
+                                <h6>{edge.node.frontmatter.date}</h6>                            
+                                <p>{edge.node.excerpt}</p>
                             </Link>
                         </div>
                     )

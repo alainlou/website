@@ -1,5 +1,9 @@
-.plain {
+.link {
     text-decoration: none;
     outline: 0;
     color: hsla(0, 0%, 0%, 0.8);
+}
+
+.link:hover {
+    color: hsla(0, 0%, 0%, 0.6);
 }
