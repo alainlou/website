@@ -2,20 +2,24 @@ import React from 'react';
 
 import Layout from '../components/layout';
 import SEO from '../components/SEO';
-import { useStaticQuery, graphql } from 'gatsby';
+import { Link,  useStaticQuery, graphql } from 'gatsby';
+
+import commonStyles from '../styles/common.module.scss';
 
 const BlogPage = () => {
     const data = useStaticQuery(graphql`
         query {
-            allMarkdownRemark {
+            allMarkdownRemark(sort: { fields: [frontmatter___date], order: [DESC]}) {
                 edges {
                     node {
-                    frontmatter {
-                        title
-                        date
-                    }
-                    html
-                    excerpt
+                        fields {
+                            slug
+                        }
+                        frontmatter {
+                            title
+                            date
+                        }                        
+                        excerpt              
                     }
                 }
             }
@@ -27,10 +31,12 @@ const BlogPage = () => {
             <div>
                 {data.allMarkdownRemark.edges.map((edge, i) => {
                     return (
-                        <div>
-                            <h2>{edge.node.frontmatter.title}</h2>
-                            <h6>{edge.node.frontmatter.date}</h6>
-                            <p>{edge.node.excerpt}</p>
+                        <div key={i}>
+                            <Link to={`/blog/${edge.node.fields.slug}`} className={commonStyles.plain}>
+                                <h2>{edge.node.frontmatter.title}</h2>
+                                <h6>{edge.node.frontmatter.date}</h6>
+                                <p>{edge.node.excerpt}</p>  
+                            </Link>
                         </div>
                     )
                 })}
