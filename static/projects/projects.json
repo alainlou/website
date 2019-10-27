@@ -1,5 +1,11 @@
 [
     {
+        "title": "FFT",
+        "image": "./FFT.png",
+        "url": "https://github.com/alainlou/FFT",
+        "description": "Implementations of the Discrete Fourier Transform - using the naive and Cooley-Tukey algorithms. Will be used to validate a hardware-based approach."
+    },
+    {
         "title": "Commutr",
         "image": "./Commutr.jpg",
         "url": "https://devpost.com/software/commutr-gs3aro",
