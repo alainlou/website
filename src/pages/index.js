@@ -26,8 +26,7 @@ const IndexPage = () => {
             <h3>Hello!</h3>
             <p>
                 I'm Alain, a computer engineering student at the University of Waterloo. 
-                I'm interested in applying my knowledge to tackle big problems.
-                Over my undergraduate career, I hope to explore the tech industry and find out where I fit!
+                I'm interested in using technology to connect the world.
             </p>
             <p>
                 This is my little corner on the internet.
