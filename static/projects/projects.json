@@ -1,6 +1,6 @@
 [
     {
-        "title": "FFT",
+        "title": "FFT-S",
         "image": "./FFT.png",
         "url": "https://github.com/alainlou/FFT-S",
         "description": "Implementations of the Discrete Fourier Transform - using the naive and Cooley-Tukey algorithms. Will be used to validate a hardware-based approach."
