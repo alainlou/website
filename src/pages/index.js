@@ -25,8 +25,10 @@ const IndexPage = () => {
             <SEO title="Home"/>
             <h3>Hello!</h3>
             <p>
-                I'm Alain, a computer engineering student at the University of Waterloo. 
-                I'm interested in using technology to connect the world.
+            I'm a Computer Engineering student at the University of Waterloo 
+            interested in building technology to connect the world. I love to 
+            learn and am always looking for new applications of cool tech. In 
+            my spare time I enjoy playing music, exercising, and hacking.
             </p>
             <p>
                 This is my little corner on the internet.
