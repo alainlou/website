@@ -6,19 +6,42 @@ module.exports = {
     url: 'alainlou.com',
     image: 'static/favicon.ico'
   },
-  plugins: [
+  plugins: [    
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
     'gatsby-plugin-sharp',
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        name: 'src',
         path: `${__dirname}/static`
       }
     },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/static/projects`
+      }
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/static/projects`
+      }
+    },
     'gatsby-transformer-json',    
-    'gatsby-transformer-remark',
+    {
+      resolve: 'gatsby-transformer-remark',
+      options: {
+        plugins: [
+          {
+            resolve: 'gatsby-remark-images',
+            options: {
+              maxWidth: 2000
+            }
+          }
+        ]
+      }
+    },
     'gatsby-transformer-sharp',
   ]
 }
