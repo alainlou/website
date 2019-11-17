@@ -9,7 +9,7 @@
         "title": "FFT-S",
         "image": "FFT-S.png",
         "url": "https://github.com/alainlou/FFT-S",
-        "description": "Implementations of the Discrete Fourier Transform - using the naive and Cooley-Tukey algorithms. Validates FFT-H."
+        "description": "Implementations of the Discrete Fourier Transform - using the naive and Cooley-Tukey algorithms written in Rust. Validates FFT-H."
     },
     {
         "title": "Commutr",
