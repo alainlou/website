@@ -3,7 +3,7 @@
         "title": "FFT-H",
         "image": "FFT-H.jpg",
         "url": "https://github.com/alainlou/FFT-H",
-        "description": "Using a Altera Cyclone IV FPGA to compute the FFT on hardware! Using Verilog for hardware description and cocotb (python) for verificaion."
+        "description": "Using a Altera Cyclone IV FPGA to compute the FFT on hardware! Using Verilog for hardware description and cocotb (python) for the testbench."
     },
     {
         "title": "FFT-S",
