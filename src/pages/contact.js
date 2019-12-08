@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaGithub, FaEnvelope, FaLinkedin } from 'react-icons/fa';
+import { FaDev, FaEnvelope, FaGithub, FaLinkedin } from 'react-icons/fa';
 
 import Layout from '../components/layout';
 import SEO from '../components/SEO';
@@ -17,13 +17,18 @@ const ContactPage = () => {
                 </a>
             </div>
             <div className={contactStyles.block}>
+                <a className={commonStyles.link} href="https://linkedin.com/in/alainlou">
+                    <FaLinkedin /> Connect with me on LinkedIn for job/professional things.
+                </a>
+            </div>
+            <div className={contactStyles.block}>
                 <a className={commonStyles.link} href="https://github.com/alainlou" target="_blank" rel="noopener noreferrer">
                     <FaGithub /> I put the source code of my personal projects on Github.
                 </a>
             </div>
             <div className={contactStyles.block}>
-                <a className={commonStyles.link} href="https://linkedin.com/in/alainlou">
-                    <FaLinkedin /> Connect with me on LinkedIn for job/professional things.
+                <a className={commonStyles.link} href="https://github.com/alainlou" target="_blank" rel="noopener noreferrer">
+                    <FaDev /> I also write about my hackathon projects on Devpost.
                 </a>
             </div>
         </Layout>

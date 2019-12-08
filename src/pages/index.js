@@ -31,7 +31,7 @@ const IndexPage = () => {
             my spare time I enjoy playing music, exercising, and hacking.
             </p>
             <p>
-                This is my little corner on the internet.
+            This is my little corner on the internet.
             </p>
             <div className={indexStyles.face}>
                 <Img fluid={data.file.childImageSharp.fluid} />
