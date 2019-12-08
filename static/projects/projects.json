@@ -1,5 +1,11 @@
 [
     {
+        "title": "Open Mind",
+        "image": "Open Mind.png",
+        "url": "https://openmind.press",
+        "description": "A Firefox and Chrome extension which encourages users to become more politically open. Developed with Javascript using browser APIs."
+    },
+    {
         "title": "FFT-H",
         "image": "FFT-H.jpg",
         "url": "https://github.com/alainlou/FFT-H",
@@ -10,6 +16,12 @@
         "image": "FFT-S.png",
         "url": "https://github.com/alainlou/FFT-S",
         "description": "Implementations of the Discrete Fourier Transform - using the naive and Cooley-Tukey algorithms written in Rust. Validates FFT-H."
+    },
+    {
+        "title": "tCP-iP",
+        "image": "tCP-iP.png",
+        "url": "https://github.com/alainlou/tCP-iP",
+        "description": "My first foray into Unix systems programming! Using C to play around with sockets and send data packets. Built client and server implementations."
     },
     {
         "title": "Commutr",
