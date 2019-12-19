@@ -28,7 +28,8 @@ const IndexPage = () => {
             I'm a Computer Engineering student at the University of Waterloo 
             interested in building technology to connect the world. I love to 
             learn and am always looking for new applications of cool tech. In 
-            my spare time I enjoy playing music, exercising, and hacking.
+            my spare time I enjoy playing music, exercising, and building personal 
+            projects.
             </p>
             <p>
             This is my little corner on the internet.
