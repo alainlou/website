@@ -22,12 +22,6 @@ module.exports = {
         path: `${__dirname}/static/projects`
       }
     },
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        path: `${__dirname}/static/projects`
-      }
-    },
     'gatsby-transformer-json',    
     {
       resolve: 'gatsby-transformer-remark',
