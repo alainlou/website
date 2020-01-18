@@ -27,7 +27,7 @@ const ContactPage = () => {
                 </a>
             </div>
             <div className={contactStyles.block}>
-                <a className={commonStyles.link} href="https://github.com/alainlou" target="_blank" rel="noopener noreferrer">
+                <a className={commonStyles.link} href="https://devpost.com/alainlou" target="_blank" rel="noopener noreferrer">
                     <FaDev /> I also write about my hackathon projects on Devpost.
                 </a>
             </div>
