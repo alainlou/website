@@ -3,7 +3,8 @@
         "title": "step-down",
         "image": "step-down.jpg",
         "url": "https:/github.com/alainlou/step-down",
-        "description": "ESP8266 program which NATs eduroam behind an unencrypted network. Based on the RangeExtender-NAPT from the Arduino ESP8266 community."
+        "description": "ESP8266 program which NATs eduroam behind an unencrypted network. Based on the RangeExtender-NAPT from the Arduino ESP8266 community.",
+        "credit": "Image credit: Yangliy"
     },
     {
         "title": "Creddle Icons",
@@ -19,7 +20,7 @@
     },
     {
         "title": "FFT-H",
-        "image": "FFT-H.jpg",
+        "image": "FFT-H.png",
         "url": "https://github.com/alainlou/FFT-H",
         "description": "Using a Altera Cyclone IV FPGA to compute the FFT on hardware! Using Verilog for hardware description and cocotb (python) for the testbench."
     },
@@ -27,7 +28,8 @@
         "title": "FFT-S",
         "image": "FFT-S.png",
         "url": "https://github.com/alainlou/FFT-S",
-        "description": "Implementations of the Discrete Fourier Transform - using the naive and Cooley-Tukey algorithms written in Rust. Validates FFT-H."
+        "description": "Implementations of the Discrete Fourier Transform - using the naive and Cooley-Tukey algorithms written in Rust. Validates FFT-H.",
+        "credit": "Image credit: Virens"
     },
     {
         "title": "tCP-iP",
@@ -57,7 +59,8 @@
         "title": "ChessEngine",
         "image": "ChessEngine.jpg",
         "url": "https://github.com/alainlou/ChessEngine",
-        "description": "A Universal Chess Interface compatible chess engine, written in Python. Uses Minimax search with Alpha-Beta pruning and piece-square tables."
+        "description": "A Universal Chess Interface compatible chess engine, written in Python. Uses Minimax search with Alpha-Beta pruning and piece-square tables.",
+        "credit": "Image credit: Jez9999"
     },
     {
         "title": "CustomArduino",
@@ -75,12 +78,14 @@
         "title": "LearnBach",
         "image": "LearnBach.jpg",
         "url": "https://github.com/alainlou/LearnBach",
-        "description": "Python scripts for training a neural network to compose baroque-style keyboard music. Conversion between MIDI, .txt, and .csv. File retrieval with requests library."
+        "description": "Python scripts for training a neural network to compose baroque-style keyboard music. Conversion between MIDI, .txt, and .csv. File retrieval with requests library.",
+        "credit": "Image credit: Glosser.ca"
     },
     {
         "title": "DineSafe",
         "image": "DineSafe.png",
         "url": "https://github.com/SQUASHer42/dinesafe",
-        "description": "Android app that uses restaurant inspection data from OpenData to recommend dining options for users. Java backend with IBM Cloudant database."
+        "description": "Android app that uses restaurant inspection data from OpenData to recommend dining options for users. Java backend with IBM Cloudant database.",
+        "credit": "Image credit: City of Toronto"
     }
 ]

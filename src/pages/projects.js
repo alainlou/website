@@ -23,6 +23,7 @@ const ProjectsPage = () => {
                         }
                         url
                         description
+                        credit
                     }
                 }
             }
@@ -35,7 +36,7 @@ const ProjectsPage = () => {
             <div className={projectsStyles.container}>
                 {data.allProjectsJson.edges.map((project, i) => {
                     return (
-                        <Card key={i} fluid={project.node.image.childImageSharp.fluid} title={project.node.title} url={project.node.url} content={project.node.description}/>
+                        <Card key={i} fluid={project.node.image.childImageSharp.fluid} title={project.node.title} url={project.node.url} content={project.node.description} credit={project.node.credit}/>
                     )
                 })}
             </div>
