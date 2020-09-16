@@ -2,7 +2,7 @@
     {
         "title": "step-down",
         "image": "step-down.jpg",
-        "url": "https:/github.com/alainlou/step-down",
+        "url": "https://github.com/alainlou/step-down",
         "description": "ESP8266 program which NATs eduroam behind an unencrypted network. Based on the RangeExtender-NAPT from the Arduino ESP8266 community.",
         "credit": "Image credit: Yangliy"
     },
