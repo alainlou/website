@@ -27,10 +27,10 @@ const Header = () => {
                         <Link className={headerStyles.navItem} activeClassName={headerStyles.navItemActive} to="/">Home</Link>
                     </li>
                     <li>
-                        <Link className={headerStyles.navItem} activeClassName={headerStyles.navItemActive} to="/projects">Projects</Link>
+                        <Link className={headerStyles.navItem} activeClassName={headerStyles.navItemActive} to="/blog">Blog</Link>
                     </li>
                     <li>
-                        <Link className={headerStyles.navItem} activeClassName={headerStyles.navItemActive} to="/blog">Blog</Link>
+                        <Link className={headerStyles.navItem} activeClassName={headerStyles.navItemActive} to="/projects">Projects</Link>
                     </li>
                     <li>
                         <Link className={headerStyles.navItem} activeClassName={headerStyles.navItemActive} to="/contact">Contact</Link>
