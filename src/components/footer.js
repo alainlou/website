@@ -16,7 +16,14 @@ const Footer = () => {
 
     return (
         <footer className={footerStyles.footer}>
-            Made by {data.site.siteMetadata.author}, © {new Date().getFullYear()}
+            Made by {data.site.siteMetadata.author}<br></br>
+
+            <div className={footerStyles.tinyText}>
+                Except where specified otherwise, all content is available under the&nbsp;
+                <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">
+                    Creative Commons Attribution-ShareAlike 3.0 Unported License
+                </a>
+            </div>
         </footer>
     );
 };
