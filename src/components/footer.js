@@ -19,9 +19,9 @@ const Footer = () => {
             Made by {data.site.siteMetadata.author}<br></br>
 
             <div className={footerStyles.tinyText}>
-                Except where specified otherwise, all content is available under the&nbsp;
+                Except where specified otherwise, all content is available under&nbsp;
                 <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">
-                    Creative Commons Attribution-ShareAlike 3.0 Unported License
+                    CC BY-SA 3.0
                 </a>
             </div>
         </footer>
