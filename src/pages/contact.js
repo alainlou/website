@@ -18,12 +18,12 @@ const ContactPage = () => {
                 </OutboundLink>
             </div>
             <div className={contactStyles.block}>
-                <OutboundLink className={commonStyles.link} href="https://linkedin.com/in/alainlou">
+                <OutboundLink className={commonStyles.link} href="https://linkedin.com/in/alainlou" target="_blank" rel="noopener noreferrer">
                     <FaLinkedin /> Connect with me on LinkedIn for job/professional things.
                 </OutboundLink>
             </div>
             <div className={contactStyles.block}>
-                <OutboundLink className={commonStyles.link} href="https://calendly.com/alainlou">
+                <OutboundLink className={commonStyles.link} href="https://calendly.com/alainlou" target="_blank" rel="noopener noreferrer">
                     <FaCalendarAlt /> You can book a coffee chat with me on Calendly.
                 </OutboundLink>
             </div>
