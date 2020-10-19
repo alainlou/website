@@ -6,7 +6,18 @@ module.exports = {
     url: 'alainlou.com',
     image: 'static/favicon.ico'
   },
-  plugins: [    
+  plugins: [
+    {
+      resolve: 'gatsby-plugin-google-analytics',
+      options: {
+        trackingId: "UA-180677040-1",
+        head: false,
+        anonymize: true,
+        respectDNT: true,
+        pageTransitionDelay: 0,
+        defer: true
+      }
+    },
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
     'gatsby-plugin-sharp',
@@ -22,7 +33,7 @@ module.exports = {
         path: `${__dirname}/static/projects`
       }
     },
-    'gatsby-transformer-json',    
+    'gatsby-transformer-json',
     {
       resolve: 'gatsby-transformer-remark',
       options: {
