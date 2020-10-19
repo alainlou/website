@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaCalendarAlt, FaDev, FaEnvelope, FaGithub, FaLinkedin } from 'react-icons/fa';
+import { OutboundLink } from "gatsby-plugin-google-analytics"
 
 import Layout from '../components/layout';
 import SEO from '../components/SEO';
@@ -12,29 +13,29 @@ const ContactPage = () => {
         <Layout>
             <SEO title="Contact"/>
             <div className={contactStyles.block}>
-                <a className={commonStyles.link} href="mailto:az2lou@uwaterloo.ca" target="_blank" rel="noopener noreferrer">
+                <OutboundLink className={commonStyles.link} href="mailto:az2lou@uwaterloo.ca" target="_blank" rel="noopener noreferrer">
                     <FaEnvelope /> Feel free to reach out on email! I'm most responsive here.
-                </a>
+                </OutboundLink>
             </div>
             <div className={contactStyles.block}>
-                <a className={commonStyles.link} href="https://linkedin.com/in/alainlou">
+                <OutboundLink className={commonStyles.link} href="https://linkedin.com/in/alainlou">
                     <FaLinkedin /> Connect with me on LinkedIn for job/professional things.
-                </a>
+                </OutboundLink>
             </div>
             <div className={contactStyles.block}>
-                <a className={commonStyles.link} href="https://calendly.com/alainlou">
+                <OutboundLink className={commonStyles.link} href="https://calendly.com/alainlou">
                     <FaCalendarAlt /> You can book a coffee chat with me on Calendly.
-                </a>
+                </OutboundLink>
             </div>
             <div className={contactStyles.block}>
-                <a className={commonStyles.link} href="https://github.com/alainlou" target="_blank" rel="noopener noreferrer">
+                <OutboundLink className={commonStyles.link} href="https://github.com/alainlou" target="_blank" rel="noopener noreferrer">
                     <FaGithub /> I put the source code of my personal projects on Github.
-                </a>
+                </OutboundLink>
             </div>
             <div className={contactStyles.block}>
-                <a className={commonStyles.link} href="https://devpost.com/alainlou" target="_blank" rel="noopener noreferrer">
+                <OutboundLink className={commonStyles.link} href="https://devpost.com/alainlou" target="_blank" rel="noopener noreferrer">
                     <FaDev /> I also write about my hackathon projects on Devpost.
-                </a>
+                </OutboundLink>
             </div>
         </Layout>
     );
