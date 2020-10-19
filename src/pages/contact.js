@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaDev, FaEnvelope, FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaCalendarAlt, FaDev, FaEnvelope, FaGithub, FaLinkedin } from 'react-icons/fa';
 
 import Layout from '../components/layout';
 import SEO from '../components/SEO';
@@ -19,6 +19,11 @@ const ContactPage = () => {
             <div className={contactStyles.block}>
                 <a className={commonStyles.link} href="https://linkedin.com/in/alainlou">
                     <FaLinkedin /> Connect with me on LinkedIn for job/professional things.
+                </a>
+            </div>
+            <div className={contactStyles.block}>
+                <a className={commonStyles.link} href="https://calendly.com/alainlou">
+                    <FaCalendarAlt /> You can book a coffee chat with me on Calendly.
                 </a>
             </div>
             <div className={contactStyles.block}>
