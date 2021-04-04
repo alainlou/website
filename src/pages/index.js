@@ -12,7 +12,7 @@ const IndexPage = () => {
     {
       file(relativePath: { eq: "headshot-UW.jpg" }) {
         childImageSharp {
-          gatsbyImageData(layout: CONSTRAINED, width: 2000)
+          gatsbyImageData(layout: CONSTRAINED, placeholder: BLURRED, width: 2000)
         }
       }
     }
