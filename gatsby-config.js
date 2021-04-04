@@ -18,6 +18,7 @@ module.exports = {
         defer: true
       }
     },
+    'gatsby-plugin-image',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
     'gatsby-plugin-sharp',
