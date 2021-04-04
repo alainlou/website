@@ -1,91 +1,91 @@
 [
-    {
-        "title": "step-down",
-        "image": "step-down.jpg",
-        "url": "https://github.com/alainlou/step-down",
-        "description": "ESP8266 program which NATs eduroam behind an unencrypted network. Based on the RangeExtender-NAPT from the Arduino ESP8266 community.",
-        "credit": "Image credit: Yangliy"
-    },
-    {
-        "title": "Creddle Icons",
-        "image": "Creddle Icons.png",
-        "url": "https://github.com/alainlou/creddle-icons",
-        "description": "A simple Chrome extension to automatically add Github, Devpost, and link icons to Creddle.io resumes! "
-    },
-    {
-        "title": "Open Mind",
-        "image": "Open Mind.png",
-        "url": "https://openmind.press",
-        "description": "A Firefox and Chrome extension which encourages users to become more politically open. Developed with Javascript using browser APIs."
-    },
-    {
-        "title": "FFT-H",
-        "image": "FFT-H.png",
-        "url": "https://github.com/alainlou/FFT-H",
-        "description": "Using a Altera Cyclone IV FPGA to compute the FFT on hardware! Using Verilog for hardware description and cocotb (python) for the testbench."
-    },
-    {
-        "title": "FFT-S",
-        "image": "FFT-S.png",
-        "url": "https://github.com/alainlou/FFT-S",
-        "description": "Implementations of the Discrete Fourier Transform - using the naive and Cooley-Tukey algorithms written in Rust. Validates FFT-H.",
-        "credit": "Image credit: Virens"
-    },
-    {
-        "title": "tCP-iP",
-        "image": "tCP-iP.png",
-        "url": "https://github.com/alainlou/tCP-iP",
-        "description": "My first foray into Unix systems programming! Using C to play around with sockets and send data packets. Built client and server implementations."
-    },
-    {
-        "title": "Commutr",
-        "image": "Commutr.jpg",
-        "url": "https://devpost.com/software/commutr-gs3aro",
-        "description": "Get the latest news, chat with fellow commuters, and receive updates on transit status. Built on a unique online-offline network infrastructure."
-    },
-    {
-        "title": "upFoot",
-        "image": "upFoot.jpg",
-        "url": "https://devpost.com/software/traffic-ihl1je",
-        "description": "A IoT sensor for foot traffic, interfacing with Slack and Airtable. Built with an ESP8266 microcontroller and a StdLib web service backend."
-    },
-    {
-        "title": "ShareTO",
-        "image": "ShareTO.png",
-        "url": "https://devpost.com/software/shareto",
-        "description": "A modern geolocation-based online marketplace for the sharing economy. Built using Angular, Java and MongoDB. Hosted on Google Cloud Platform."
-    },
-    {
-        "title": "ChessEngine",
-        "image": "ChessEngine.jpg",
-        "url": "https://github.com/alainlou/ChessEngine",
-        "description": "A Universal Chess Interface compatible chess engine, written in Python. Uses Minimax search with Alpha-Beta pruning and piece-square tables.",
-        "credit": "Image credit: Jez9999"
-    },
-    {
-        "title": "CustomArduino",
-        "image": "CustomArduino.jpg",
-        "url": "https://github.com/alainlou/CustomArduino",
-        "description": "A redesigned Arduino microcontroller board, from the open source spec. My first project with KiCad and soldering SMT components."
-    },
-    {
-        "title": "LM386 Amp",
-        "image": "LM386.jpg",
-        "url": "https://github.com/alainlou/lm386-audio-amp",
-        "description": "Op-amp circuit based on LM386 chip from Texas Instruments. Powerful enough to drive my electric guitar. Circuit design, layout, and soldering."
-    },
-    {
-        "title": "LearnBach",
-        "image": "LearnBach.jpg",
-        "url": "https://github.com/alainlou/LearnBach",
-        "description": "Python scripts for training a neural network to compose baroque-style keyboard music. Conversion between MIDI, .txt, and .csv. File retrieval with requests library.",
-        "credit": "Image credit: Glosser.ca"
-    },
-    {
-        "title": "DineSafe",
-        "image": "DineSafe.png",
-        "url": "https://github.com/SQUASHer42/dinesafe",
-        "description": "Android app that uses restaurant inspection data from OpenData to recommend dining options for users. Java backend with IBM Cloudant database.",
-        "credit": "Image credit: City of Toronto"
-    }
+  {
+    "title": "step-down",
+    "image": "step-down.jpg",
+    "url": "https://github.com/alainlou/step-down",
+    "description": "ESP8266 program which NATs eduroam behind an unencrypted network. Based on the RangeExtender-NAPT from the Arduino ESP8266 community.",
+    "credit": "Image credit: Yangliy"
+  },
+  {
+    "title": "Creddle Icons",
+    "image": "Creddle Icons.png",
+    "url": "https://github.com/alainlou/creddle-icons",
+    "description": "A simple Chrome extension to automatically add Github, Devpost, and link icons to Creddle.io resumes! "
+  },
+  {
+    "title": "Open Mind",
+    "image": "Open Mind.png",
+    "url": "https://openmind.press",
+    "description": "A Firefox and Chrome extension which encourages users to become more politically open. Developed with Javascript using browser APIs."
+  },
+  {
+    "title": "FFT-H",
+    "image": "FFT-H.png",
+    "url": "https://github.com/alainlou/FFT-H",
+    "description": "Using a Altera Cyclone IV FPGA to compute the FFT on hardware! Using Verilog for hardware description and cocotb (python) for the testbench."
+  },
+  {
+    "title": "FFT-S",
+    "image": "FFT-S.png",
+    "url": "https://github.com/alainlou/FFT-S",
+    "description": "Implementations of the Discrete Fourier Transform - using the naive and Cooley-Tukey algorithms written in Rust. Validates FFT-H.",
+    "credit": "Image credit: Virens"
+  },
+  {
+    "title": "tCP-iP",
+    "image": "tCP-iP.png",
+    "url": "https://github.com/alainlou/tCP-iP",
+    "description": "My first foray into Unix systems programming! Using C to play around with sockets and send data packets. Built client and server implementations."
+  },
+  {
+    "title": "Commutr",
+    "image": "Commutr.jpg",
+    "url": "https://devpost.com/software/commutr-gs3aro",
+    "description": "Get the latest news, chat with fellow commuters, and receive updates on transit status. Built on a unique online-offline network infrastructure."
+  },
+  {
+    "title": "upFoot",
+    "image": "upFoot.jpg",
+    "url": "https://devpost.com/software/traffic-ihl1je",
+    "description": "A IoT sensor for foot traffic, interfacing with Slack and Airtable. Built with an ESP8266 microcontroller and a StdLib web service backend."
+  },
+  {
+    "title": "ShareTO",
+    "image": "ShareTO.png",
+    "url": "https://devpost.com/software/shareto",
+    "description": "A modern geolocation-based online marketplace for the sharing economy. Built using Angular, Java and MongoDB. Hosted on Google Cloud Platform."
+  },
+  {
+    "title": "ChessEngine",
+    "image": "ChessEngine.jpg",
+    "url": "https://github.com/alainlou/ChessEngine",
+    "description": "A Universal Chess Interface compatible chess engine, written in Python. Uses Minimax search with Alpha-Beta pruning and piece-square tables.",
+    "credit": "Image credit: Jez9999"
+  },
+  {
+    "title": "CustomArduino",
+    "image": "CustomArduino.jpg",
+    "url": "https://github.com/alainlou/CustomArduino",
+    "description": "A redesigned Arduino microcontroller board, from the open source spec. My first project with KiCad and soldering SMT components."
+  },
+  {
+    "title": "LM386 Amp",
+    "image": "LM386.jpg",
+    "url": "https://github.com/alainlou/lm386-audio-amp",
+    "description": "Op-amp circuit based on LM386 chip from Texas Instruments. Powerful enough to drive my electric guitar. Circuit design, layout, and soldering."
+  },
+  {
+    "title": "LearnBach",
+    "image": "LearnBach.jpg",
+    "url": "https://github.com/alainlou/LearnBach",
+    "description": "Python scripts for training a neural network to compose baroque-style keyboard music. Conversion between MIDI, .txt, and .csv. File retrieval with requests library.",
+    "credit": "Image credit: Glosser.ca"
+  },
+  {
+    "title": "DineSafe",
+    "image": "DineSafe.png",
+    "url": "https://github.com/SQUASHer42/dinesafe",
+    "description": "Android app that uses restaurant inspection data from OpenData to recommend dining options for users. Java backend with IBM Cloudant database.",
+    "credit": "Image credit: City of Toronto"
+  }
 ]
