@@ -9,36 +9,32 @@ import * as projectsStyles from './projects.module.scss';
 
 const ProjectsPage = () => {
     const data = useStaticQuery(graphql`
-        query {
-            allProjectsJson {
-                edges {
-                    node {
-                        title
-                        image {
-                            childImageSharp {
-                                fluid(maxWidth: 600) {
-                                    ...GatsbyImageSharpFluid
-                                }
-                            }
-                        }
-                        url
-                        description
-                        credit
-                    }
+      {
+        allProjectsJson {
+          edges {
+            node {
+              title
+              image {
+                childImageSharp {
+                  gatsbyImageData(layout: FULL_WIDTH)
                 }
+              }
+              url
+              description
+              credit
             }
+          }
         }
+      }
     `);
 
     return (
         <Layout>
             <SEO title="Projects"/>
             <div className={projectsStyles.container}>
-                {data.allProjectsJson.edges.map((project, i) => {
-                    return (
-                        <Card key={i} fluid={project.node.image.childImageSharp.fluid} title={project.node.title} url={project.node.url} content={project.node.description} credit={project.node.credit}/>
-                    )
-                })}
+              {data.allProjectsJson.edges.map((project, i) => {
+                return <Card key={i} fluid={project.node.image.childImageSharp.gatsbyImageData} title={project.node.title} url={project.node.url} content={project.node.description} credit={project.node.credit}/>;
+              })}
             </div>
         </Layout>
     );
