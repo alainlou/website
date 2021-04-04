@@ -4,7 +4,7 @@ import Layout from '../components/layout';
 import SEO from '../components/SEO';
 import { Link,  useStaticQuery, graphql } from 'gatsby';
 
-import commonStyles from '../styles/common.module.scss';
+import * as commonStyles from '../styles/common.module.scss';
 
 const BlogPage = () => {
     const data = useStaticQuery(graphql`
@@ -18,8 +18,8 @@ const BlogPage = () => {
                         frontmatter {
                             title
                             date
-                        }                        
-                        excerpt              
+                        }
+                        excerpt
                     }
                 }
             }
@@ -32,9 +32,9 @@ const BlogPage = () => {
                 {data.allMarkdownRemark.edges.map((edge, i) => {
                     return (
                         <div key={i}>
-                            <Link to={`/blog/${edge.node.fields.slug}`} className={commonStyles.link}>                    
+                            <Link to={`/blog/${edge.node.fields.slug}`} className={commonStyles.link}>
                                 <h3>{edge.node.frontmatter.title}</h3>
-                                <h6>{edge.node.frontmatter.date}</h6>                            
+                                <h6>{edge.node.frontmatter.date}</h6>
                                 <p>{edge.node.excerpt}</p>
                             </Link>
                         </div>

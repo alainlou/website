@@ -5,7 +5,7 @@ import Img from 'gatsby-image';
 import Layout from '../components/layout';
 import SEO from '../components/SEO';
 
-import indexStyles from './index.module.scss';
+import * as indexStyles from './index.module.scss';
 
 const IndexPage = () => {
     const data = useStaticQuery(graphql`
@@ -25,10 +25,10 @@ const IndexPage = () => {
             <SEO title="Home"/>
             <h3>Hello!</h3>
             <p>
-            I'm a Computer Engineering student at the University of Waterloo 
-            interested in building technology to connect the world. I love to 
-            learn and am always looking for new applications of cool tech. In 
-            my spare time I enjoy playing music, exercising, and building personal 
+            I'm a Computer Engineering student at the University of Waterloo
+            interested in building technology to connect the world. I love to
+            learn and am always looking for new applications of cool tech. In
+            my spare time I enjoy playing music, exercising, and building personal
             projects.
             </p>
             <p>
@@ -38,7 +38,7 @@ const IndexPage = () => {
                 <Img fluid={data.file.childImageSharp.fluid} />
             </div>
         </Layout>
-    );    
+    );
 };
 
 export default IndexPage;
