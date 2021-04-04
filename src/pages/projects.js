@@ -5,7 +5,7 @@ import Layout from '../components/layout';
 import SEO from '../components/SEO';
 import Card from '../components/card';
 
-import projectsStyles from './projects.module.scss';
+import * as projectsStyles from './projects.module.scss';
 
 const ProjectsPage = () => {
     const data = useStaticQuery(graphql`

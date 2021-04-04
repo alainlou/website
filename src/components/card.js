@@ -1,8 +1,8 @@
 import React from 'react';
 import Img from 'gatsby-image';
 
-import commonStyles from '../styles/common.module.scss';
-import cardStyles from './card.module.scss';
+import * as commonStyles from '../styles/common.module.scss';
+import * as cardStyles from './card.module.scss';
 
 const CardBody = ({title, content, credit}) => {
     return (

@@ -5,8 +5,8 @@ import { OutboundLink } from "gatsby-plugin-google-analytics"
 import Layout from '../components/layout';
 import SEO from '../components/SEO';
 
-import commonStyles from '../styles/common.module.scss';
-import contactStyles from './contact.module.scss';
+import * as commonStyles from '../styles/common.module.scss';
+import * as contactStyles from './contact.module.scss';
 
 const ContactPage = () => {
     return (
