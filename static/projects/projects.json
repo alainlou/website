@@ -1,5 +1,18 @@
 [
   {
+    "title": "synth",
+    "image": "synth.png",
+    "url": "https://github.com/alainlou/synth",
+    "description": "A single clock domain square wave synthesizer (basically a 13-way clock divider with a speaker output). Easy way to annoy your friends family.",
+    "credit": "Image credit: Sponk"
+  },
+  {
+    "title": "pong",
+    "image": "pong.png",
+    "url": "https://github.com/alainlou/pong",
+    "description": "The classic arcade game implemented 100% in hardware. VGA output at industry standard 640x480 @ 60Hz!"
+  },
+  {
     "title": "step-down",
     "image": "step-down.jpg",
     "url": "https://github.com/alainlou/step-down",
@@ -32,9 +45,9 @@
     "credit": "Image credit: Virens"
   },
   {
-    "title": "tCP-iP",
-    "image": "tCP-iP.png",
-    "url": "https://github.com/alainlou/tCP-iP",
+    "title": "socks",
+    "image": "socks.png",
+    "url": "https://github.com/alainlou/socks",
     "description": "My first foray into Unix systems programming! Using C to play around with sockets and send data packets. Built client and server implementations."
   },
   {
