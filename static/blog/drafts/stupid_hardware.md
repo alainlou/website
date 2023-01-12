@@ -1,0 +1,3 @@
+- you can physical problems in circuitry (traces are too long, capacitance, etc.)
+- initial values lol (will resolve X's)
+- half rate PHY means actually you double clock rate to the memory compared to core (misnomer)
