@@ -4,7 +4,7 @@ import { graphql } from "gatsby"
 import Layout from "../components/layout"
 
 export const query = graphql`
-  query($slug: Date!) {
+  query($slug: Date) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
       frontmatter {
         title

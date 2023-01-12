@@ -9,7 +9,7 @@ import * as commonStyles from "../styles/common.module.scss"
 const BlogPage = () => {
   const data = useStaticQuery(graphql`
     query {
-      allMarkdownRemark(sort: { fields: [frontmatter___date], order: [DESC] }) {
+      allMarkdownRemark(sort: {frontmatter: {date: DESC}}) {
         edges {
           node {
             fields {
