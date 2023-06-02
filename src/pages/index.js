@@ -23,7 +23,7 @@ const IndexPage = () => {
       <SEO title="Home" />
       <h3>Hello!</h3>
       <p>
-        I'm a recent grad of Computer Engineering at the University of Waterloo working in FPGA development. I am curious about the world and love to learn and experience new things! In my spare time I enjoy music, food and being in good company.
+        I'm a recent graduate of the Computer Engineering program at the University of Waterloo specializing in FPGA development. I am curious about the world; I love to learn and experience new things! In my spare time I enjoy music, food and being in good company.
       </p>
       <p>This is my little corner on the internet.</p>
       <div className={indexStyles.face}>
