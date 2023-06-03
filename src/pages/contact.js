@@ -25,7 +25,7 @@ const ContactPage = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaEnvelope /> Email (best way to contact me)
+          <FaEnvelope /> Email (best way)
         </OutboundLink>
       </div>
       <div className={contactStyles.block}>
