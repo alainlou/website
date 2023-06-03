@@ -4,6 +4,12 @@
   color: hsla(0, 0%, 0%, 0.8);
 }
 
+.link h3,
+.link h6,
+.link p {
+  margin-bottom: 0.5rem;
+}
+
 .link:hover {
   color: hsla(0, 0%, 0%, 0.6);
 }

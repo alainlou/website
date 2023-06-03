@@ -41,6 +41,7 @@ const BlogPage = () => {
                 <h6>{edge.node.frontmatter.date}</h6>
                 <p>{edge.node.excerpt}</p>
               </Link>
+              <br></br>
             </div>
           )
         })}
