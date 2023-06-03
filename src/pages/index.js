@@ -10,7 +10,7 @@ import * as indexStyles from "./index.module.scss"
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
     {
-      file(relativePath: { eq: "killarney.jpg" }) {
+      file(relativePath: { eq: "running.jpeg" }) {
         childImageSharp {
           gatsbyImageData(layout: CONSTRAINED, placeholder: BLURRED, width: 2000)
         }
