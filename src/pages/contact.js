@@ -21,12 +21,11 @@ const ContactPage = () => {
       <div className={contactStyles.block}>
         <OutboundLink
           className={commonStyles.link}
-          href="mailto:az2lou@uwaterloo.ca"
+          href="mailto:alainzlou@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaEnvelope /> Feel free to reach out on email! I'm most responsive
-          here.
+          <FaEnvelope /> Email (best way to contact me)
         </OutboundLink>
       </div>
       <div className={contactStyles.block}>
@@ -36,8 +35,7 @@ const ContactPage = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaLinkedin /> Connect with me on LinkedIn for job/professional
-          things.
+          <FaLinkedin /> LinkedIn
         </OutboundLink>
       </div>
       <div className={contactStyles.block}>
@@ -47,7 +45,7 @@ const ContactPage = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaCalendarAlt /> You can book a coffee chat with me on Calendly.
+          <FaCalendarAlt /> Calendy (for coffee chats)
         </OutboundLink>
       </div>
       <div className={contactStyles.block}>
@@ -57,7 +55,7 @@ const ContactPage = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaGithub /> I put the source code of my personal projects on Github.
+          <FaGithub /> GitHub
         </OutboundLink>
       </div>
       <div className={contactStyles.block}>
@@ -67,7 +65,7 @@ const ContactPage = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaDev /> I also write about my hackathon projects on Devpost.
+          <FaDev /> Devpost
         </OutboundLink>
       </div>
     </Layout>
