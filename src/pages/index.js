@@ -23,9 +23,9 @@ const IndexPage = () => {
       <SEO title="Home" />
       <h3>Hello!</h3>
       <p>
-        I'm a recent graduate of the Computer Engineering program at the University of Waterloo specializing in FPGA development. I am curious about the world; I love to learn and experience new things! In my spare time I enjoy music, food and being in good company.
+        I'm a recent graduate of the Computer Engineering program at the University of Waterloo specializing in FPGA development. I am curious about the world and I love to learn and experience new things! In my spare time I enjoy music, food and being in good company.
       </p>
-      <p>This is my little corner on the internet.</p>
+      <p>Thanks for stopping by my little corner of the internet :)</p>
       <div className={indexStyles.face}>
         <GatsbyImage alt="" image={data.file.childImageSharp.gatsbyImageData} />
       </div>
