@@ -5,6 +5,7 @@ import {
   FaEnvelope,
   FaGithub,
   FaLinkedin,
+  FaYoutube
 } from "react-icons/fa"
 import { OutboundLink } from "gatsby-plugin-google-analytics"
 
@@ -56,6 +57,16 @@ const ContactPage = () => {
           rel="noopener noreferrer"
         >
           <FaGithub /> GitHub
+        </OutboundLink>
+      </div>
+      <div className={contactStyles.block}>
+        <OutboundLink
+          className={commonStyles.link}
+          href="https://www.youtube.com/@alainzlou"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaYoutube /> YouTube
         </OutboundLink>
       </div>
       <div className={contactStyles.block}>
