@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "gatsby": "^5.4.0",
-    "gatsby-plugin-google-analytics": "^5.4.0",
+    "gatsby-plugin-google-gtag": "^5.11.0",
     "gatsby-plugin-image": "^3.4.0",
     "gatsby-plugin-sass": "^6.4.0",
     "gatsby-plugin-sharp": "^5.4.0",
