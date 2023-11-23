@@ -7,7 +7,7 @@ import {
   FaLinkedin,
   FaYoutube
 } from "react-icons/fa"
-import { OutboundLink } from "gatsby-plugin-google-analytics"
+import { OutboundLink } from "gatsby-plugin-google-gtag"
 
 import Layout from "../components/layout"
 import SEO from "../components/SEO"

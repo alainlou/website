@@ -2,20 +2,20 @@ module.exports = {
   siteMetadata: {
     title: 'Alain Lou',
     author: 'Alain Lou',
-    description: 'Alain Lou is an ECE Student at the University of Waterloo',
+    description: 'Alain Lou is an FPGA engineer at Citadel Securities. He likes to enjoy life.',
     url: 'alainlou.com',
     image: 'static/favicon.ico'
   },
   plugins: [
     {
-      resolve: 'gatsby-plugin-google-analytics',
+      resolve: `gatsby-plugin-google-gtag`,
       options: {
-        trackingId: "UA-180677040-1",
-        head: false,
-        anonymize: true,
-        respectDNT: true,
-        pageTransitionDelay: 0,
-        defer: true
+        trackingIds: [
+          "G-L0S899EN4R",
+        ],
+        pluginConfig: {
+          head: true
+        },
       }
     },
     'gatsby-plugin-image',
