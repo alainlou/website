@@ -13,25 +13,23 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
   },
   "dependencies": {
-    "gatsby": "^5.4.0",
-    "gatsby-plugin-google-gtag": "^5.11.0",
-    "gatsby-plugin-image": "^3.4.0",
-    "gatsby-plugin-sass": "^6.4.0",
-    "gatsby-plugin-sharp": "^5.4.0",
-    "gatsby-remark-images": "^7.4.0",
-    "gatsby-source-filesystem": "^5.4.0",
-    "gatsby-transformer-json": "^5.4.0",
-    "gatsby-transformer-remark": "^6.4.0",
-    "gatsby-transformer-sharp": "^5.4.0",
-    "node-sass": "^8.0.0",
-    "punycode": "^2.3.1",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
+    "gatsby": "^5.13.0",
+    "gatsby-plugin-google-gtag": "^5.13.0",
+    "gatsby-plugin-image": "^3.13.0",
+    "gatsby-plugin-sass": "^6.13.0",
+    "gatsby-plugin-sharp": "^5.13.0",
+    "gatsby-remark-images": "^7.13.0",
+    "gatsby-source-filesystem": "^5.13.0",
+    "gatsby-transformer-json": "^5.13.0",
+    "gatsby-transformer-remark": "^6.13.0",
+    "gatsby-transformer-sharp": "^5.13.0",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
     "react-helmet": "^6.1.0",
-    "react-icons": "^4.7.1"
+    "react-icons": "^5.2.0"
   },
   "devDependencies": {
-    "gatsby-cli": "^4.20.0"
+    "gatsby-cli": "^5.13.0"
   },
   "repository": {
     "type": "git",
