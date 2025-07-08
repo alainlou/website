@@ -42,16 +42,6 @@ const ContactPage = () => {
       <div className={contactStyles.block}>
         <OutboundLink
           className={commonStyles.link}
-          href="https://calendly.com/alainlou"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <FaCalendarAlt /> Calendy (for coffee chats)
-        </OutboundLink>
-      </div>
-      <div className={contactStyles.block}>
-        <OutboundLink
-          className={commonStyles.link}
           href="https://github.com/alainlou"
           target="_blank"
           rel="noopener noreferrer"
