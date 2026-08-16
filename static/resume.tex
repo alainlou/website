@@ -1,0 +1,178 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,12pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{lmodern}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.35in}
+\addtolength{\evensidemargin}{-0.35in}
+\addtolength{\textwidth}{0.7in}
+\addtolength{\topmargin}{-0.35in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{#3} & \textit{ #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{1} & \textit{ #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      #1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.15in]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Huge\selectfont\bfseries\scshape Alain Lou} \\[12pt]
+    \faEnvelope\ \href{mailto:alainzlou@gmail.com}{alainzlou@gmail.com} $|$
+    \faLinkedin\ \href{https://www.linkedin.com/in/alainlou}{linkedin.com/in/alainlou} $|$
+    \faGithub\ \href{https://github.com/alainlou}{github.com/alainlou}
+\end{center}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {FPGA Engineer}{Sept 2023 -- Present}
+      {Citadel Securities}{New York, NY}
+      \resumeItemListStart
+        \resumeItem{Own RTL (SystemVerilog) design, implementation, verification and timing closure for trading accelerators across US equities, futures and fixed income exchanges}
+        \resumeItem{Scale platform across symbols and strategy type (passive/active, high-frequency/long-term)}
+        \resumeItem{Translate research findings into fault-tolerant and flexible system features in collaboration with software and quant research teams}
+        \resumeItem{Reduce tick-to-trade latency and increase fill rate on competitive opportunities}
+        \resumeItem{Upgrade FPGA part and re-close timing under new physical constraints}
+        \resumeItem{Contribute fixes and enhancements to Ethernet MAC and Avalon-ST datapath modules}
+        \resumeItem{Implement and upgrade exchange protocols across all US venues}
+        \resumeItem{Diagnose issues in lab and production using FPGA board management controller, network switch monitoring tools and packet analyzers}
+        \resumeItem{Work with external vendor to fix integration issues, including protocol bugs and coverage gaps}
+        \resumeItem{Develop LLM-enabled build, simulation and development tooling}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {University Internships}{Sept 2018 -- May 2023}
+      {IMC Trading, Intel, University of Waterloo}{Chicago, IL / Toronto, ON / Waterloo, ON}
+      \resumeItemListStart
+        \vspace{2pt}
+        \resumeItem{\textbf{IMC Trading} (Hardware Eng. Intern): Improved FPGA routing utilization of on-chip CSR network by implementing configurable bus widths; verified using UVM-type C++ testbench}
+        \vspace{2pt}
+        \resumeItem{\textbf{Intel} (IP Design Intern): Developed features for memory subsystem IP for Intel FPGAs (user AXI4-MM to external DDR4): added Linux support, Agilex support, fixed AXI adapter}
+        \vspace{2pt}
+        \resumeItem{\textbf{University of Waterloo} (Research Assistant): Investigated area and performance characteristics of Efinix architecture using Python (OpenCV, pyautogui) and Tcl tooling}
+        \vspace{2pt}
+        \resumeItem{\textbf{Intel} (FPGA SW Eng. Intern): Developed features for FPGA compute offload (OpenCL, SYCL): rewrote build config, resolved compiler issues, triaged regressions across 3 products}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Waterloo}{Sept 2018 -- May 2023}
+      {Bachelor of Applied Science in Computer Engineering; CGPA 88.51}{Waterloo, ON}
+      \resumeItemListStart
+        \resumeItem{Dean's Honours List x2}
+        \resumeItem{President's Research Award x2}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \item{
+     \textbf{Languages}{: Bash, C++, Python, SystemVerilog, Tcl} \\[2pt]
+     \textbf{Tools}{: Bazel, cocotb, Git, GTKWave, Quartus, QuestaSim, VCS, Vivado, Verilator, Wireshark} \\[2pt]
+     \textbf{Protocols}{: Avalon, AXI, Ethernet}
+    }
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
